@@ -1,5 +1,4 @@
 
-```markdown
 # Group Chat Application (Frontend)
 
 This is the frontend of a  group chat application built with **Vite**, **React**, and **TypeScript**.
