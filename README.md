@@ -1,36 +1,72 @@
-# Test Project
 
-## Backend
-- [README](./backend/README.md)
+```markdown
+# Group Chat Application (Frontend)
 
-## Frontend
-- [README](./frontend/README.md)
+This is the frontend of a  group chat application built with **Vite**, **React**, and **TypeScript**.
 
-  if (isLoading) {
-    return (
-      <Box
-        width="100vw"
-        padding={5}
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <CircularProgress />
-      </Box>
-    );
-  }
+## Features
+- User authentication (login, register)
+- Real-time messaging
+- Group chat functionality
+- Responsive UI
 
 
-   if (!data) {
-    return (
-      <Box
-        width="100vw"
-        padding={5}
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Typography variant="h6" textAlign="center" color="error"> Failed to load. Please try again later.</Typography>
-      </Box>
-    );
-  }
+## Tech Stack
+- **Vite** - Fast development environment
+- **React** - UI library
+- **TypeScript** - Type safety
+- **Redux Toolkit** - State management
+- **RTK Query** - API calls
+
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shashwat75wt/group-chat-frontend.git
+   cd group-chat-frontend
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory and add the required environment variables:
+   ```ini
+   VITE_API_BASE_URL=http://localhost:5000/api/v1
+   ```
+
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+5. Open the application in your browser at:
+   ```
+   http://localhost:5173
+   ```
+
+
+
+## Build for Production
+
+To create a production-ready build:
+```sh
+npm run build
+```
+
+
+
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements.
+
+---
+
+**Author:** _Shashwat_  
+
+
+```
+
+Let me know if you need any modifications! 🚀
